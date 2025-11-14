@@ -33,7 +33,7 @@
 ---
 
 ## 🌠 Featured Projects
-- 🔹 **Stock Market Platform (Dark Theme)**  
+- 🔹 **Stock Market Platform**  
 - 🔹 **Chess Game UI with Stockfish engine**  
 - 🔹 **OCR-enhanced Selenium Automation**  
 - 🔹 **Robotics (Forward & Inverse Kinematics)**  
