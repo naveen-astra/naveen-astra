@@ -1,61 +1,43 @@
-# naveen-astra
-<!-- Animated Cyber Banner -->
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<!--      ⚡  N A V E E N   A S T R A   ⚡     -->
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+
 <p align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="900" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=32&duration=3000&color=00E7FF&center=true&vCenter=true&width=700&lines=Naveen+Astra;Developer+%7C+Tech+Explorer;Infinite+Ideas+⚡+Future+Innovator;Welcome+to+My+Cosmic+GitHub+Space+🚀" />
 </p>
 
-<h1 align="center">🚀 Hi, I'm Naveen Astra</h1>
-<h3 align="center">Web Developer | AI/ ML | Automation </h3>
+<div align="center">
+  <img src="https://i.imgur.com/ZV4QFqK.gif" width="750"/>
+</div>
 
 ---
 
-## 🚀 About
-AI, ML 
-
----
-
-## 🔧 Skills
-<p>
-  <img src="https://img.shields.io/badge/HTML-111?style=for-the-badge&logo=html5" />
-  <img src="https://img.shields.io/badge/CSS-111?style=for-the-badge&logo=css3" />
-  <img src="https://img.shields.io/badge/JS-111?style=for-the-badge&logo=javascript" />
-  <img src="https://img.shields.io/badge/Python-111?style=for-the-badge&logo=python" />
-</p>
-
----
-
-## 📊 Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=naveen-astra&theme=radical&show_icons=true" height="180" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=naveen-astra&theme=radical" height="180" />
-</p>
+## 🌌 About Me
+```bash
+> access granted...
+> loading profile...
 
 
-<h1 align="center" style="color:#00eaff;">⚡ NAV EEN ASTRA ⚡</h1>
-<h3 align="center" style="color:#9e00ff;">Futuristic Developer | Cyber UI Architect</h3>
++ Full-stack Developer | AI + Web + Automation  
++ Loves Space, Tech, Futuristic UI  
++ Builds tools 
++ problem solver ⚡  
 
----
+LANGUAGES:
+  - Python, Java, JavaScript, C
+WEB:
+  - ReactJS, Node.js, Express, APIs
+AI:
+  - ML basics, OCR, embeddings
 
-## 🌐 About Me
-- Creating **neon-themed**, futuristic websites  
-- Loves generative AI + automation  
-- Robotics enthusiast (D-H, forward/inverse kinematics)  
-- Building Stockfish-powered Chess UI  
 
----
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=naveen-astra&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" height="160"/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=naveen-astra&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" height="160"/> </p>
 
-## 🌈 Neon Tech Stack
-<p align="center">
-  <img src="https://img.shields.io/badge/HTML5-000?style=for-the-badge&logo=html5&logoColor=#ff0099" />
-  <img src="https://img.shields.io/badge/CSS3-000?style=for-the-badge&logo=css3&logoColor=#00eaff" />
-  <img src="https://img.shields.io/badge/JavaScript-000?style=for-the-badge&logo=javascript&logoColor=#fff000" />
-  <img src="https://img.shields.io/badge/Python-000?style=for-the-badge&logo=python&logoColor=#00ff88" />
-</p>
+<p align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=naveen-astra&theme=react-dark&hide_border=true&area=true" /> </p>
 
----
 
-## 🟣 Neon Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=naveen-astra&theme=tokyonight&show_icons=true" height="180" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=naveen-astra&theme=tokyonight" height="180" />
-</p>
+<p align="center"> <img src="https://img.shields.io/badge/Space%20Lover-🚀-blueviolet?style=for-the-badge&logo=starship&logoColor=white"/> <img src="https://img.shields.io/badge/Hacker%20Mode-ON-00ff88?style=for-the-badge&logo=terminal&logoColor=black"/> <img src="https://img.shields.io/badge/Futuristic%20UI-Designer-00e7ff?style=for-the-badge"/> </p>
+
+
+<p align="center"> <a href="#"><img src="https://skillicons.dev/icons?i=github" width="50"/></a> <a href="#"><img src="https://skillicons.dev/icons?i=linkedin" width="50"/></a> <a href="#"><img src="https://skillicons.dev/icons?i=instagram" width="50"/></a> </p> <p align="center"> <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" /> </p> <p align="center"> <strong>⭐ Powered by Naveen Astra — The Space Hacker ⭐</strong> </p> ```
+
