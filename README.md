@@ -5,15 +5,12 @@
 </p>
 
 <h1 align="center">🚀 Hi, I'm Naveen Astra</h1>
-<h3 align="center">Futuristic Web Developer | Robotics Learner | Automation Geek</h3>
+<h3 align="center">Web Developer | AI/ ML | Automation </h3>
 
 ---
 
 ## 🚀 About
-- Building futuristic UI/UX (neon + dark)  
-- Working on robotics projects  
-- Exploring Selenium + OCR automation  
-- Love for AI, ML & smart tools  
+AI, ML 
 
 ---
 
