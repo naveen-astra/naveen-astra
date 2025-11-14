@@ -1,1 +1,1 @@
-# naveen_astra
+# naveen-astra
