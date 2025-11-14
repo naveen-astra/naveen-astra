@@ -42,7 +42,7 @@
 
 ## 🌐 Connect With Me
 <p>
-  <a href="https://instagram.com/YOUR-INSTAGRAM" target="_https://www.instagram.com/naveen______babu/?hl=en">
+  <a href="https://instagram.com/https://www.instagram.com/naveen______babu/?hl=en" target="blank">
     <img src="https://img.shields.io/badge/Instagram-111?style=for-the-badge&logo=instagram" />
   </a>
 </p>
