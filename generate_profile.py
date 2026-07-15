@@ -23,11 +23,10 @@ def load_portrait():
 # (label, value, colour-key)  |  colour-key: key / val / accent / warn / muted
 INFO = [
     ("__header__", "Naveen Babu", ""),
-    ("__blank__", "", ""),
+    ("__rule__", "", ""),
     ("__line__",  "currently making tomorrow's bugs.", "muted"),
     ("__line__",  "eventually turning them into features.", "muted"),
     ("__blank__", "", ""),
-    ("__rule__", "", ""),
     ("Role",     "AI & Software Developer", "val"),
     ("Edu",      "B.Tech CSE (AI), Amrita Vishwa Vidyapeetham (2027)", "val"),
     ("Focus",    "├── Multi-Agent AI Systems", "accent"),
