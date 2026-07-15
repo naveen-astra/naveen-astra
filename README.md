@@ -6,6 +6,8 @@
   <img alt="Naveen Babu — AI & Software Developer" src="https://raw.githubusercontent.com/naveen-astra/naveen-astra/main/dark.svg">
 </picture>
 
+<p><i>currently making tomorrow's bugs.<br>eventually turning them into features.</i></p>
+
 <p>
   <a href="https://naveenbabu.pages.dev" target="_blank" rel="noopener noreferrer">Portfolio</a> ·
   <a href="https://www.linkedin.com/in/naveen-babu-699215224/" target="_blank" rel="noopener noreferrer">LinkedIn</a> ·
