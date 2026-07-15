@@ -52,6 +52,12 @@ INFO = [
     ("",         "NumPy · OpenCV", "val"),
     ("Tools",    "Git · GitHub · VS Code · Docker · Arduino", "val"),
     ("__blank__", "", ""),
+    ("__cmd__",  "cat roadmap.md", ""),
+    ("__line__", "[ ] make something cool", "muted"),
+    ("__line__", "[ ] make it useful", "muted"),
+    ("__line__", "[ ] make it open source", "muted"),
+    ("__line__", "[x] have fun doing it", "key"),
+    ("__blank__", "", ""),
     ("__section__", "~/reach", ""),
     ("Web",      "naveenbabu.pages.dev", "accent"),
     ("In",       "linkedin.com/in/naveen-babu-699215224", "accent"),
@@ -74,7 +80,7 @@ THEMES = {
     },
 }
 
-W, H = 980, 620
+W, H = 980, 800
 ART_X, ART_Y = 30, 86
 ART_CW = 3.9          # forced char width (textLength keeps this exact in any font)
 ART_LH = ART_CW * 1.72
