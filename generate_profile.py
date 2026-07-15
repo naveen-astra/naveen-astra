@@ -45,6 +45,7 @@ INFO = [
     ("__section__", "~/reach", ""),
     ("Web",      "naveenbabu.pages.dev", "accent"),
     ("In",       "linkedin.com/in/naveen-babu-699215224", "accent"),
+    ("X",        "x.com/naveenastra", "accent"),
     ("Mail",     "nbknight23@gmail.com", "accent"),
 ]
 
