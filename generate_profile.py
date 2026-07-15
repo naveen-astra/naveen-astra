@@ -133,7 +133,7 @@ def render(theme_name, colors):
     # info block
     y = INFO_Y
     delay = 0.35
-    cls_map = {"val": "val", "accent": "acc", "warn": "wrn", "muted": "mut"}
+    cls_map = {"val": "val", "accent": "acc", "warn": "wrn", "muted": "mut", "key": "key"}
 
     for label, value, ckey in INFO:
         d = f'style="animation-delay:{delay:.2f}s"'
@@ -151,6 +151,17 @@ def render(theme_name, colors):
             continue
         elif label == "__section__":
             parts.append(f'<text x="{INFO_X}" y="{y:.1f}" class="sec row" {d}>{escape(value)}</text>')
+            y += INFO_LH
+        elif label == "__cmd__":
+            parts.append(
+                f'<text x="{INFO_X}" y="{y:.1f}" class="row" {d}>'
+                f'<tspan class="key">$</tspan>'
+                f'<tspan class="val" dx="8">{escape(value)}</tspan></text>'
+            )
+            y += INFO_LH
+        elif label == "__line__":
+            cls = cls_map.get(ckey, "val")
+            parts.append(f'<text x="{INFO_X}" y="{y:.1f}" class="{cls} row" {d}>{escape(value)}</text>')
             y += INFO_LH
         else:
             cls = cls_map.get(ckey, "val")
