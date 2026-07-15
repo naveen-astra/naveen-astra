@@ -22,8 +22,6 @@
 <circle cx="24" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="44" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="64" cy="20" r="6" fill="#27c93f"/>
-<text x="490.0" y="24" class="ttl" text-anchor="middle">naveen — zsh — 90×26</text>
-<text x="30" y="66" class="row" style="animation-delay:.05s"><tspan class="key">➜</tspan><tspan class="acc" dx="8">~</tspan><tspan class="val" dx="8">neofetch --profile</tspan></text>
 <text x="30" y="86.0" class="art artline" xml:space="preserve" textLength="113.1" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.15s">                            =</text>
 <text x="30" y="92.7" class="art artline" xml:space="preserve" textLength="128.7" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.16s">                 ::::::::.  .:-==</text>
 <text x="30" y="99.4" class="art artline" xml:space="preserve" textLength="136.5" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.17s">              -..:-++=+=+***+-+**+=</text>
