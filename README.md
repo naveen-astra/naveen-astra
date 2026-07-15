@@ -17,6 +17,14 @@ $ make
 [ ] documentation
 </pre>
 
+<pre align="center">
+$ roadmap
+[] make something cool
+[] make it useful
+[] make it open source
+[x] have fun doing it
+</pre>
+
 <p>
   <a href="https://naveenbabu.pages.dev" target="_blank" rel="noopener noreferrer">Portfolio</a> ·
   <a href="https://www.linkedin.com/in/naveen-babu-699215224/" target="_blank" rel="noopener noreferrer">LinkedIn</a> ·
