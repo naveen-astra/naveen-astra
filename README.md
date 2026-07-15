@@ -8,6 +8,15 @@
 
 <p><i>currently making tomorrow's bugs.<br>eventually turning them into features.</i></p>
 
+<pre align="center">
+$ make
+[✓] ideas
+[✓] prototypes
+[✓] bugs
+[✓] late-night commits
+[ ] documentation
+</pre>
+
 <p>
   <a href="https://naveenbabu.pages.dev" target="_blank" rel="noopener noreferrer">Portfolio</a> ·
   <a href="https://www.linkedin.com/in/naveen-babu-699215224/" target="_blank" rel="noopener noreferrer">LinkedIn</a> ·
