@@ -101,29 +101,35 @@
 <text x="540" y="197.5" class="acc row" style="animation-delay:0.77s">├── Multi-Agent AI Systems</text>
 <text x="540" y="215.0" class="acc row" style="animation-delay:0.84s">├── AI-Powered Developer Tools</text>
 <text x="540" y="232.5" class="acc row" style="animation-delay:0.91s">└── Open-Source Projects</text>
-<text x="448" y="260.0" class="sec row" style="animation-delay:0.98s">~/stack</text>
-<text x="448" y="277.5" class="key row" style="animation-delay:1.05s">Lang</text>
-<text x="540" y="277.5" class="val row" style="animation-delay:1.05s">Python · JavaScript · TypeScript · Java · C++</text>
-<text x="540" y="295.0" class="val row" style="animation-delay:1.12s">SQL · MATLAB · C · Rust · Dart · Kotlin</text>
-<text x="540" y="312.5" class="val row" style="animation-delay:1.19s">Flutter</text>
-<text x="448" y="330.0" class="key row" style="animation-delay:1.26s">Frontend</text>
-<text x="540" y="330.0" class="val row" style="animation-delay:1.26s">HTML5 · CSS3 · React · Next.js · Tailwind CSS</text>
-<text x="540" y="347.5" class="val row" style="animation-delay:1.33s">Bootstrap · Flutter · Figma</text>
-<text x="448" y="365.0" class="key row" style="animation-delay:1.40s">Data</text>
-<text x="540" y="365.0" class="val row" style="animation-delay:1.40s">PostgreSQL · MongoDB · Firebase · Supabase</text>
-<text x="540" y="382.5" class="val row" style="animation-delay:1.47s">Neon</text>
-<text x="448" y="400.0" class="key row" style="animation-delay:1.54s">AI/ML</text>
-<text x="540" y="400.0" class="val row" style="animation-delay:1.54s">TensorFlow · PyTorch · Scikit-learn · Pandas</text>
-<text x="540" y="417.5" class="val row" style="animation-delay:1.61s">NumPy · OpenCV</text>
-<text x="448" y="435.0" class="key row" style="animation-delay:1.68s">Tools</text>
-<text x="540" y="435.0" class="val row" style="animation-delay:1.68s">Git · GitHub · VS Code · Docker · Arduino</text>
-<text x="448" y="462.5" class="sec row" style="animation-delay:1.75s">~/reach</text>
-<text x="448" y="480.0" class="key row" style="animation-delay:1.82s">Web</text>
-<text x="540" y="480.0" class="acc row" style="animation-delay:1.82s">naveenbabu.pages.dev</text>
-<text x="448" y="497.5" class="key row" style="animation-delay:1.89s">In</text>
-<text x="540" y="497.5" class="acc row" style="animation-delay:1.89s">linkedin.com/in/naveen-babu-699215224</text>
-<text x="448" y="515.0" class="key row" style="animation-delay:1.96s">X</text>
-<text x="540" y="515.0" class="acc row" style="animation-delay:1.96s">x.com/naveenastra</text>
-<text x="448" y="532.5" class="key row" style="animation-delay:2.03s">Mail</text>
-<text x="540" y="532.5" class="acc row" style="animation-delay:2.03s">nbknight23@gmail.com</text>
+<text x="448" y="260.0" class="row" style="animation-delay:0.98s"><tspan class="key">$</tspan><tspan class="val" dx="8">make</tspan></text>
+<text x="448" y="277.5" class="key row" style="animation-delay:1.05s">[✓] ideas</text>
+<text x="448" y="295.0" class="key row" style="animation-delay:1.12s">[✓] prototypes</text>
+<text x="448" y="312.5" class="key row" style="animation-delay:1.19s">[✓] bugs</text>
+<text x="448" y="330.0" class="key row" style="animation-delay:1.26s">[✓] late-night commits</text>
+<text x="448" y="347.5" class="mut row" style="animation-delay:1.33s">[ ] documentation</text>
+<text x="448" y="375.0" class="sec row" style="animation-delay:1.40s">~/stack</text>
+<text x="448" y="392.5" class="key row" style="animation-delay:1.47s">Lang</text>
+<text x="540" y="392.5" class="val row" style="animation-delay:1.47s">Python · JavaScript · TypeScript · Java · C++</text>
+<text x="540" y="410.0" class="val row" style="animation-delay:1.54s">SQL · MATLAB · C · Rust · Dart · Kotlin</text>
+<text x="540" y="427.5" class="val row" style="animation-delay:1.61s">Flutter</text>
+<text x="448" y="445.0" class="key row" style="animation-delay:1.68s">Frontend</text>
+<text x="540" y="445.0" class="val row" style="animation-delay:1.68s">HTML5 · CSS3 · React · Next.js · Tailwind CSS</text>
+<text x="540" y="462.5" class="val row" style="animation-delay:1.75s">Bootstrap · Flutter · Figma</text>
+<text x="448" y="480.0" class="key row" style="animation-delay:1.82s">Data</text>
+<text x="540" y="480.0" class="val row" style="animation-delay:1.82s">PostgreSQL · MongoDB · Firebase · Supabase</text>
+<text x="540" y="497.5" class="val row" style="animation-delay:1.89s">Neon</text>
+<text x="448" y="515.0" class="key row" style="animation-delay:1.96s">AI/ML</text>
+<text x="540" y="515.0" class="val row" style="animation-delay:1.96s">TensorFlow · PyTorch · Scikit-learn · Pandas</text>
+<text x="540" y="532.5" class="val row" style="animation-delay:2.03s">NumPy · OpenCV</text>
+<text x="448" y="550.0" class="key row" style="animation-delay:2.10s">Tools</text>
+<text x="540" y="550.0" class="val row" style="animation-delay:2.10s">Git · GitHub · VS Code · Docker · Arduino</text>
+<text x="448" y="577.5" class="sec row" style="animation-delay:2.17s">~/reach</text>
+<text x="448" y="595.0" class="key row" style="animation-delay:2.24s">Web</text>
+<text x="540" y="595.0" class="acc row" style="animation-delay:2.24s">naveenbabu.pages.dev</text>
+<text x="448" y="612.5" class="key row" style="animation-delay:2.31s">In</text>
+<text x="540" y="612.5" class="acc row" style="animation-delay:2.31s">linkedin.com/in/naveen-babu-699215224</text>
+<text x="448" y="630.0" class="key row" style="animation-delay:2.38s">X</text>
+<text x="540" y="630.0" class="acc row" style="animation-delay:2.38s">x.com/naveenastra</text>
+<text x="448" y="647.5" class="key row" style="animation-delay:2.45s">Mail</text>
+<text x="540" y="647.5" class="acc row" style="animation-delay:2.45s">nbknight23@gmail.com</text>
 </svg>
