@@ -24,10 +24,10 @@ def load_portrait():
 
 # (label, value, colour-key)  |  colour-key: key / val / accent / warn / muted
 INFO = [
-    ("__header__", "naveen babu", ""),
+    ("__header__", "Naveen Babu", ""),
     ("__rule__", "", ""),
     ("Role",     "AI & Software Developer", "val"),
-    ("Edu",      "B.Tech CSE (AI), Amrita Vishwa Vidyapeetham  ·  Class of 2027", "val"),
+    ("Edu",      "B.Tech CSE (AI), Amrita Vishwa Vidyapeetham (2027)", "val"),
     ("Focus",    "AI Agents  ·  Full-Stack Development  ·  Intelligent Automation", "accent"),
     ("__blank__", "", ""),
     ("__section__", "~/stack", ""),
