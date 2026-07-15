@@ -44,4 +44,6 @@ $ roadmap
   links live in the <p> block above instead.
 -->
 
+<p align="center"><sub>sleep is optional.<br>git push isn't.</sub></p>
+
 <p align="center"><sub><code>git commit -m "it finally works"</code></sub></p>
