@@ -23,6 +23,7 @@ def load_portrait():
 # (label, value, colour-key)  |  colour-key: key / val / accent / warn / muted
 INFO = [
     ("__header__", "Naveen Babu", ""),
+    ("__blank__", "", ""),
     ("__line__",  "currently making tomorrow's bugs.", "muted"),
     ("__line__",  "eventually turning them into features.", "muted"),
     ("__blank__", "", ""),
@@ -63,6 +64,9 @@ INFO = [
     ("In",       "linkedin.com/in/naveen-babu-699215224", "accent"),
     ("X",        "x.com/naveenastra", "accent"),
     ("Mail",     "nbknight23@gmail.com", "accent"),
+    ("__blank__", "", ""),
+    ("__line__", "sleep is optional.", "cool"),
+    ("__line__", "git push isn't.", "cool"),
 ]
 
 THEMES = {
@@ -80,7 +84,7 @@ THEMES = {
     },
 }
 
-W, H = 980, 800
+W, H = 980, 825
 ART_X, ART_Y = 30, 86
 ART_CW = 3.9          # forced char width (textLength keeps this exact in any font)
 ART_LH = ART_CW * 1.72
@@ -112,6 +116,8 @@ def render(theme_name, colors):
     .hdr  {{ fill:{colors['accent']}; font-size:15px; font-weight:700; }}
     .sec  {{ fill:{colors['muted']}; font-size:12px; letter-spacing:1px; }}
     .ttl  {{ fill:{colors['muted']}; font-size:12px; }}
+    .cool {{ fill:{colors['accent']}; font-size:14px; font-style:italic; font-weight:600;
+             font-family:'Brush Script MT', 'Segoe Script', cursive; letter-spacing:0.3px; }}
     .row  {{ opacity:1; animation: fade .35s ease backwards; }}
     @keyframes fade {{ from {{ opacity:0; transform:translateY(3px); }}
                        to   {{ opacity:1; transform:translateY(0); }} }}
@@ -149,7 +155,7 @@ def render(theme_name, colors):
     # info block
     y = INFO_Y
     delay = 0.35
-    cls_map = {"val": "val", "accent": "acc", "warn": "wrn", "muted": "mut", "key": "key"}
+    cls_map = {"val": "val", "accent": "acc", "warn": "wrn", "muted": "mut", "key": "key", "cool": "cool"}
 
     for label, value, ckey in INFO:
         d = f'style="animation-delay:{delay:.2f}s"'
