@@ -1,8 +1,6 @@
 name: Update profile card
 
 on:
-  schedule:
-    - cron: "0 0 * * *"   # daily at 00:00 UTC
   workflow_dispatch: {}
   push:
     branches: [main]
@@ -24,8 +22,6 @@ jobs:
           python-version: "3.12"
 
       - name: Generate cards
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python generate_profile.py
 
       - name: Commit changes
