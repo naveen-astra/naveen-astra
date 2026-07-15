@@ -91,34 +91,37 @@
 <text x="30" y="515.3" class="art artline" xml:space="preserve" textLength="315.9" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.92s">   .-=:.---.       +   .-::----:.+#.=:.--*=:::..:--:=-.:.:=..::. :=-=++=+=:. .. :</text>
 <text x="30" y="522.0" class="art artline" xml:space="preserve" textLength="312.0" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.93s"> - --.:-=..-+       :  ...:.-. ..=-.:.::.-::=:.--=-:-=-:.:=:   -**=-----==*#=-..</text>
 <text x="30" y="528.7" class="art artline" xml:space="preserve" textLength="312.0" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.94s">    .::-=. :        *==: .:....-..-= ::=-..-+-:-:.:=..:::...:=#@#..::-==--+=++=+</text>
-<text x="448" y="92.0" class="hdr row" style="animation-delay:0.35s">naveen babu</text>
+<text x="448" y="92.0" class="hdr row" style="animation-delay:0.35s">Naveen Babu</text>
 <line x1="448" y1="101.5" x2="940" y2="101.5" stroke="#d0d7de" class="row" style="animation-delay:0.42s"/>
 <text x="448" y="117.5" class="key row" style="animation-delay:0.49s">Role</text>
 <text x="540" y="117.5" class="val row" style="animation-delay:0.49s">AI &amp; Software Developer</text>
 <text x="448" y="135.0" class="key row" style="animation-delay:0.56s">Edu</text>
-<text x="540" y="135.0" class="val row" style="animation-delay:0.56s">B.Tech CSE (AI), Amrita Vishwa Vidyapeetham  ·  Class of 2027</text>
+<text x="540" y="135.0" class="val row" style="animation-delay:0.56s">B.Tech CSE (AI), Amrita Vishwa Vidyapeetham (2027)</text>
 <text x="448" y="152.5" class="key row" style="animation-delay:0.63s">Focus</text>
 <text x="540" y="152.5" class="acc row" style="animation-delay:0.63s">AI Agents  ·  Full-Stack Development  ·  Intelligent Automation</text>
 <text x="448" y="180.0" class="sec row" style="animation-delay:0.70s">~/stack</text>
 <text x="448" y="197.5" class="key row" style="animation-delay:0.77s">Lang</text>
-<text x="540" y="197.5" class="val row" style="animation-delay:0.77s">Python · TypeScript</text>
-<text x="448" y="215.0" class="key row" style="animation-delay:0.84s">Web</text>
-<text x="540" y="215.0" class="val row" style="animation-delay:0.84s">React · Next.js · Node.js</text>
-<text x="448" y="232.5" class="key row" style="animation-delay:0.91s">AI</text>
-<text x="540" y="232.5" class="val row" style="animation-delay:0.91s">LangChain · OpenAI</text>
-<text x="448" y="250.0" class="key row" style="animation-delay:0.98s">Data</text>
-<text x="540" y="250.0" class="val row" style="animation-delay:0.98s">PostgreSQL · MongoDB</text>
-<text x="448" y="267.5" class="key row" style="animation-delay:1.05s">Tools</text>
-<text x="540" y="267.5" class="val row" style="animation-delay:1.05s">Docker · Git</text>
-<text x="448" y="295.0" class="sec row" style="animation-delay:1.12s">~/github</text>
-<text x="448" y="312.5" class="row" style="animation-delay:1.19s"><tspan class="key">⚡</tspan><tspan class="val" dx="8">repos 0   ·   stars 0   ·   followers 0</tspan></text>
-<text x="448" y="340.0" class="sec row" style="animation-delay:1.26s">~/reach</text>
-<text x="448" y="357.5" class="key row" style="animation-delay:1.33s">Web</text>
-<text x="540" y="357.5" class="acc row" style="animation-delay:1.33s">naveenbabu.pages.dev</text>
-<text x="448" y="375.0" class="key row" style="animation-delay:1.40s">In</text>
-<text x="540" y="375.0" class="acc row" style="animation-delay:1.40s">linkedin.com/in/naveen-babu-699215224</text>
-<text x="448" y="392.5" class="key row" style="animation-delay:1.47s">Mail</text>
-<text x="540" y="392.5" class="acc row" style="animation-delay:1.47s">nbknight23@gmail.com</text>
-<text x="30" y="596" class="row" style="animation-delay:1.64s"><tspan class="key">➜</tspan><tspan class="acc" dx="8">~</tspan><tspan class="val" dx="8">open to AI Engineer / Full-Stack roles</tspan><tspan class="cur" dx="8">█</tspan></text>
-<text x="946" y="596" class="mut" text-anchor="end">last updated 16 Jul 2026, 02:00 IST</text>
+<text x="540" y="197.5" class="val row" style="animation-delay:0.77s">Python · JavaScript · TypeScript · Java · C++</text>
+<text x="540" y="215.0" class="val row" style="animation-delay:0.84s">SQL · MATLAB · C · Rust · Dart · Kotlin</text>
+<text x="540" y="232.5" class="val row" style="animation-delay:0.91s">Flutter</text>
+<text x="448" y="250.0" class="key row" style="animation-delay:0.98s">Frontend</text>
+<text x="540" y="250.0" class="val row" style="animation-delay:0.98s">HTML5 · CSS3 · React · Next.js · Tailwind CSS</text>
+<text x="540" y="267.5" class="val row" style="animation-delay:1.05s">Bootstrap · Flutter · Figma</text>
+<text x="448" y="285.0" class="key row" style="animation-delay:1.12s">Data</text>
+<text x="540" y="285.0" class="val row" style="animation-delay:1.12s">PostgreSQL · MongoDB · Firebase · Supabase</text>
+<text x="540" y="302.5" class="val row" style="animation-delay:1.19s">Neon</text>
+<text x="448" y="320.0" class="key row" style="animation-delay:1.26s">AI/ML</text>
+<text x="540" y="320.0" class="val row" style="animation-delay:1.26s">TensorFlow · PyTorch · Scikit-learn · Pandas</text>
+<text x="540" y="337.5" class="val row" style="animation-delay:1.33s">NumPy · OpenCV</text>
+<text x="448" y="355.0" class="key row" style="animation-delay:1.40s">Tools</text>
+<text x="540" y="355.0" class="val row" style="animation-delay:1.40s">Git · GitHub · VS Code · Docker · Arduino</text>
+<text x="448" y="382.5" class="sec row" style="animation-delay:1.47s">~/reach</text>
+<text x="448" y="400.0" class="key row" style="animation-delay:1.54s">Web</text>
+<text x="540" y="400.0" class="acc row" style="animation-delay:1.54s">naveenbabu.pages.dev</text>
+<text x="448" y="417.5" class="key row" style="animation-delay:1.61s">In</text>
+<text x="540" y="417.5" class="acc row" style="animation-delay:1.61s">linkedin.com/in/naveen-babu-699215224</text>
+<text x="448" y="435.0" class="key row" style="animation-delay:1.68s">X</text>
+<text x="540" y="435.0" class="acc row" style="animation-delay:1.68s">x.com/naveenastra</text>
+<text x="448" y="452.5" class="key row" style="animation-delay:1.75s">Mail</text>
+<text x="540" y="452.5" class="acc row" style="animation-delay:1.75s">nbknight23@gmail.com</text>
 </svg>
