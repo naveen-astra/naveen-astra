@@ -29,3 +29,5 @@
   <img>, which browsers never treat as interactive) — that's why the real
   links live in the <p> block above instead.
 -->
+
+<p align="center"><sub><code>git commit -m "it finally works"</code></sub></p>
