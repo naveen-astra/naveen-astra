@@ -3,14 +3,8 @@
 Generates an animated terminal-style GitHub profile card (dark.svg + light.svg).
 
 Everything you'd normally want to tweak lives in CONFIG / ASCII_ART / INFO below.
-Stats (repos, stars, followers) are pulled live from the GitHub API when the
-script runs in Actions; if the API is unreachable it silently falls back.
 """
 
-import json
-import os
-import urllib.request
-from datetime import datetime, timezone, timedelta
 from html import escape
 from pathlib import Path
 
@@ -43,9 +37,6 @@ INFO = [
     ("Data",     "PostgreSQL · MongoDB", "val"),
     ("Tools",    "Docker · Git", "val"),
     ("__blank__", "", ""),
-    ("__section__", "~/github", ""),
-    ("__stats__", "", ""),
-    ("__blank__", "", ""),
     ("__section__", "~/reach", ""),
     ("Web",      "naveenbabu.pages.dev", "accent"),
     ("In",       "linkedin.com/in/naveen-babu-699215224", "accent"),
@@ -76,42 +67,9 @@ VAL_X = INFO_X + 92
 
 
 # ----------------------------------------------------------------------------
-# STATS
-# ----------------------------------------------------------------------------
-def fetch_stats():
-    stats = {"repos": "-", "stars": "-", "followers": "-"}
-    try:
-        headers = {"User-Agent": "profile-readme"}
-        token = os.environ.get("GITHUB_TOKEN")
-        if token:
-            headers["Authorization"] = f"Bearer {token}"
-
-        req = urllib.request.Request(
-            f"https://api.github.com/users/{USERNAME}", headers=headers)
-        user = json.load(urllib.request.urlopen(req, timeout=15))
-        stats["repos"] = str(user.get("public_repos", 0))
-        stats["followers"] = str(user.get("followers", 0))
-
-        stars, page = 0, 1
-        while page <= 5:
-            req = urllib.request.Request(
-                f"https://api.github.com/users/{USERNAME}/repos"
-                f"?per_page=100&page={page}", headers=headers)
-            repos = json.load(urllib.request.urlopen(req, timeout=15))
-            if not repos:
-                break
-            stars += sum(r.get("stargazers_count", 0) for r in repos)
-            page += 1
-        stats["stars"] = str(stars)
-    except Exception as e:  # offline / rate-limited -> keep placeholders
-        print(f"[warn] stats fetch failed: {e}")
-    return stats
-
-
-# ----------------------------------------------------------------------------
 # RENDER
 # ----------------------------------------------------------------------------
-def render(theme_name, colors, stats, ist_now):
+def render(theme_name, colors):
     art_lines = load_portrait()
 
     parts = []
@@ -200,15 +158,6 @@ def render(theme_name, colors, stats, ist_now):
         elif label == "__section__":
             parts.append(f'<text x="{INFO_X}" y="{y:.1f}" class="sec row" {d}>{escape(value)}</text>')
             y += INFO_LH
-        elif label == "__stats__":
-            stat_txt = (f'repos {stats["repos"]}   ·   stars {stats["stars"]}'
-                        f'   ·   followers {stats["followers"]}')
-            parts.append(
-                f'<text x="{INFO_X}" y="{y:.1f}" class="row" {d}>'
-                f'<tspan class="key">⚡</tspan>'
-                f'<tspan class="val" dx="8">{escape(stat_txt)}</tspan></text>'
-            )
-            y += INFO_LH
         else:
             cls = cls_map.get(ckey, "val")
             if label:
@@ -221,30 +170,14 @@ def render(theme_name, colors, stats, ist_now):
             y += INFO_LH
         delay += 0.07
 
-    # footer prompt + blinking cursor
-    fy = H - 24
-    parts.append(
-        f'<text x="{ART_X}" y="{fy}" class="row" style="animation-delay:{delay+0.1:.2f}s">'
-        f'<tspan class="key">➜</tspan>'
-        f'<tspan class="acc" dx="8">~</tspan>'
-        f'<tspan class="val" dx="8">open to AI Engineer / Full-Stack roles</tspan>'
-        f'<tspan class="cur" dx="8">█</tspan></text>'
-    )
-    parts.append(
-        f'<text x="{W-34}" y="{fy}" class="mut" text-anchor="end">'
-        f'last updated {ist_now}</text>'
-    )
     parts.append("</svg>")
     return "\n".join(parts)
 
 
 def main():
-    stats = fetch_stats()
-    ist = datetime.now(timezone.utc) + timedelta(hours=5, minutes=30)
-    stamp = ist.strftime("%d %b %Y, %H:%M IST")
     out = Path(__file__).parent
     for name, colors in THEMES.items():
-        (out / f"{name}.svg").write_text(render(name, colors, stats, stamp), encoding="utf-8")
+        (out / f"{name}.svg").write_text(render(name, colors), encoding="utf-8")
         print(f"wrote {name}.svg")
 
 
