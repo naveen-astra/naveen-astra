@@ -116,8 +116,7 @@ def render(theme_name, colors):
     .hdr  {{ fill:{colors['accent']}; font-size:15px; font-weight:700; }}
     .sec  {{ fill:{colors['muted']}; font-size:12px; letter-spacing:1px; }}
     .ttl  {{ fill:{colors['muted']}; font-size:12px; }}
-    .cool {{ fill:{colors['accent']}; font-size:14px; font-style:italic; font-weight:600;
-             font-family:'Brush Script MT', 'Segoe Script', cursive; letter-spacing:0.3px; }}
+    .cool {{ fill:{colors['accent']}; font-size:13px; font-style:italic; font-weight:600; }}
     .row  {{ opacity:1; animation: fade .35s ease backwards; }}
     @keyframes fade {{ from {{ opacity:0; transform:translateY(3px); }}
                        to   {{ opacity:1; transform:translateY(0); }} }}

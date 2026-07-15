@@ -9,8 +9,7 @@
     .hdr  { fill:#0969da; font-size:15px; font-weight:700; }
     .sec  { fill:#59636e; font-size:12px; letter-spacing:1px; }
     .ttl  { fill:#59636e; font-size:12px; }
-    .cool { fill:#0969da; font-size:14px; font-style:italic; font-weight:600;
-             font-family:'Brush Script MT', 'Segoe Script', cursive; letter-spacing:0.3px; }
+    .cool { fill:#0969da; font-size:13px; font-style:italic; font-weight:600; }
     .row  { opacity:1; animation: fade .35s ease backwards; }
     @keyframes fade { from { opacity:0; transform:translateY(3px); }
                        to   { opacity:1; transform:translateY(0); } }
