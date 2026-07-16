@@ -7,10 +7,13 @@
 </picture>
 
 <p>
-  <a href="https://naveenbabu.pages.dev" target="_blank" rel="noopener noreferrer">Portfolio</a> ·
-  <a href="https://www.linkedin.com/in/naveen-babu-699215224/" target="_blank" rel="noopener noreferrer">LinkedIn</a> ·
-  <a href="https://x.com/naveenastra" target="_blank" rel="noopener noreferrer">X</a> ·
-  <a href="mailto:nbknight23@gmail.com">Email</a>
+  <a href="https://naveenbabu.pages.dev" target="_blank" rel="noopener noreferrer">Portfolio</a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/naveen-babu-699215224/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/naveen-astra/naveen-astra/main/assets/linkedin.svg" alt="LinkedIn" height="24"></a>
+  &nbsp;&nbsp;
+  <a href="https://x.com/naveenastra" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/naveen-astra/naveen-astra/main/assets/x.svg" alt="X" height="24"></a>
+  &nbsp;&nbsp;
+  <a href="mailto:nbknight23@gmail.com"><img src="https://raw.githubusercontent.com/naveen-astra/naveen-astra/main/assets/gmail.svg" alt="Email" height="24"></a>
 </p>
 
 </div>
@@ -23,6 +26,9 @@
   The ~/reach text inside the SVG is not clickable (GitHub renders it via
   <img>, which browsers never treat as interactive) — that's why the real
   links live in the <p> block above instead.
+
+  assets/*.svg are Simple Icons (CC0), recolored and hosted locally instead
+  of a third-party proxy — cdn.simpleicons.org 404s on "linkedin" specifically.
 -->
 
 <p align="center"><sub><code>git commit -m "it finally works"</code></sub></p>
