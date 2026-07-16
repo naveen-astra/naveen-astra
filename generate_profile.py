@@ -94,6 +94,11 @@ ART_LH = ART_CW * 1.72
 INFO_X, INFO_Y, INFO_LH = 448, 92, 17.5
 VAL_X = INFO_X + 92
 
+# typewriter-reveal pacing (info panel: chars "typed" one at a time, like a
+# streamed AI response; ascii art: fast overlapping wipe, like it's printing)
+CHAR_DUR, MIN_DUR, MAX_DUR, ROW_GAP = 0.028, 0.12, 0.6, 0.05
+ART_DUR, ART_GAP = 0.14, 0.018
+
 
 # ----------------------------------------------------------------------------
 # RENDER
@@ -102,6 +107,29 @@ def render(theme_name, colors):
     art_lines = load_portrait()
 
     parts = []
+    defs = []
+    clip_n = [0]
+
+    def reveal(x, y, cls_attr, content, char_len, begin, dur, extra=""):
+        """Emit a <text> that wipes in left-to-right via an animated clip-path."""
+        cid = f"cp{clip_n[0]}"
+        clip_n[0] += 1
+        steps = max(4, min(int(char_len), 30))
+        vals = ";".join(f"{k / steps:.4f}" for k in range(steps + 1))
+        defs.append(
+            f'<clipPath id="{cid}" clipPathUnits="objectBoundingBox">'
+            f'<rect x="0" y="0" width="0" height="1">'
+            f'<animate attributeName="width" values="{vals}" calcMode="discrete" '
+            f'begin="{begin:.2f}s" dur="{dur:.2f}s" fill="freeze"/>'
+            f'</rect></clipPath>'
+        )
+        parts.append(
+            f'<text x="{x}" y="{y:.1f}" {cls_attr} clip-path="url(#{cid})" {extra}>{content}</text>'
+        )
+
+    def type_dur(char_len):
+        return max(MIN_DUR, min(MAX_DUR, CHAR_DUR * char_len))
+
     parts.append(
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
         f'viewBox="0 0 {W} {H}" font-family="ui-monospace, SFMono-Regular, '
@@ -120,12 +148,8 @@ def render(theme_name, colors):
     .sec  {{ fill:{colors['muted']}; font-size:12px; letter-spacing:1px; }}
     .ttl  {{ fill:{colors['muted']}; font-size:12px; }}
     .cool {{ fill:{colors['accent']}; font-size:13px; font-style:italic; font-weight:600; }}
-    .row  {{ opacity:1; animation: fade .35s ease backwards; }}
-    @keyframes fade {{ from {{ opacity:0; transform:translateY(3px); }}
-                       to   {{ opacity:1; transform:translateY(0); }} }}
-    .cur  {{ fill:{colors['prompt']}; animation: blink 1s steps(1) infinite; }}
-    @keyframes blink {{ 50% {{ opacity:0; }} }}
-    .artline {{ opacity:1; animation: fade .3s ease backwards; }}
+    .rule {{ opacity:1; animation: fade .4s ease backwards; }}
+    @keyframes fade {{ from {{ opacity:0; }} to {{ opacity:1; }} }}
     </style>""")
 
     # window chrome
@@ -141,64 +165,70 @@ def render(theme_name, colors):
     for i, c in enumerate(["dot1", "dot2", "dot3"]):
         parts.append(f'<circle cx="{24 + i*20}" cy="20" r="6" fill="{colors[c]}"/>')
 
-    # ascii art
+    # ascii art — fast cascading wipe, each line overlapping the next
+    art_begin = 0.1
     for i, line in enumerate(art_lines):
         if not line.strip():
             continue
         y = ART_Y + i * ART_LH
-        delay = 0.15 + i * 0.012
         tl = len(line) * ART_CW
-        parts.append(
-            f'<text x="{ART_X}" y="{y:.1f}" class="art artline" xml:space="preserve" '
-            f'textLength="{tl:.1f}" lengthAdjust="spacingAndGlyphs" '
-            f'style="animation-delay:{delay:.2f}s">{escape(line)}</text>'
+        reveal(
+            ART_X, y, 'class="art"', escape(line), len(line),
+            art_begin, ART_DUR,
+            extra=f'xml:space="preserve" textLength="{tl:.1f}" lengthAdjust="spacingAndGlyphs"',
         )
+        art_begin += ART_GAP
 
-    # info block
+    # info block — sequential "typing", one field/line at a time
     y = INFO_Y
-    delay = 0.35
+    delay = 0.3
     cls_map = {"val": "val", "accent": "acc", "warn": "wrn", "muted": "mut", "key": "key", "cool": "cool"}
 
     for label, value, ckey in INFO:
-        d = f'style="animation-delay:{delay:.2f}s"'
         if label == "__header__":
-            parts.append(f'<text x="{INFO_X}" y="{y:.1f}" class="hdr row" {d}>{escape(value)}</text>')
+            dur = type_dur(len(value))
+            reveal(INFO_X, y, 'class="hdr"', escape(value), len(value), delay, dur)
+            delay += dur + ROW_GAP
             y += INFO_LH
         elif label == "__rule__":
             parts.append(
                 f'<line x1="{INFO_X}" y1="{y-8:.1f}" x2="{W-40}" y2="{y-8:.1f}" '
-                f'stroke="{colors["border"]}" class="row" {d}/>'
+                f'stroke="{colors["border"]}" class="rule" style="animation-delay:{delay:.2f}s"/>'
             )
+            delay += 0.15
             y += 8
         elif label == "__blank__":
             y += 10
             continue
         elif label == "__section__":
-            parts.append(f'<text x="{INFO_X}" y="{y:.1f}" class="sec row" {d}>{escape(value)}</text>')
+            dur = type_dur(len(value))
+            reveal(INFO_X, y, 'class="sec"', escape(value), len(value), delay, dur)
+            delay += dur + ROW_GAP
             y += INFO_LH
         elif label == "__cmd__":
-            parts.append(
-                f'<text x="{INFO_X}" y="{y:.1f}" class="row" {d}>'
-                f'<tspan class="key">$</tspan>'
-                f'<tspan class="val" dx="8">{escape(value)}</tspan></text>'
-            )
+            content = f'<tspan class="key">$</tspan><tspan class="val" dx="8">{escape(value)}</tspan>'
+            dur = type_dur(len(value) + 2)
+            reveal(INFO_X, y, "", content, len(value) + 2, delay, dur)
+            delay += dur + ROW_GAP
             y += INFO_LH
         elif label == "__line__":
             cls = cls_map.get(ckey, "val")
-            parts.append(f'<text x="{INFO_X}" y="{y:.1f}" class="{cls} row" {d}>{escape(value)}</text>')
+            dur = type_dur(len(value))
+            reveal(INFO_X, y, f'class="{cls}"', escape(value), len(value), delay, dur)
+            delay += dur + ROW_GAP
             y += INFO_LH
         else:
             cls = cls_map.get(ckey, "val")
             if label:
-                parts.append(
-                    f'<text x="{INFO_X}" y="{y:.1f}" class="key row" {d}>{escape(label)}</text>'
-                )
-            parts.append(
-                f'<text x="{VAL_X}" y="{y:.1f}" class="{cls} row" {d}>{escape(value)}</text>'
-            )
+                ldur = type_dur(len(label))
+                reveal(INFO_X, y, 'class="key"', escape(label), len(label), delay, ldur)
+                delay += ldur + ROW_GAP
+            vdur = type_dur(len(value))
+            reveal(VAL_X, y, f'class="{cls}"', escape(value), len(value), delay, vdur)
+            delay += vdur + ROW_GAP
             y += INFO_LH
-        delay += 0.07
 
+    parts.append(f'<defs>{"".join(defs)}</defs>')
     parts.append("</svg>")
     return "\n".join(parts)
 
