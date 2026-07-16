@@ -7,13 +7,13 @@
 </picture>
 
 <p>
-  <a href="https://naveenbabu.pages.dev" target="_blank" rel="noopener noreferrer">Portfolio</a>
+  <a href="https://naveenbabu.pages.dev" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/naveen-astra/naveen-astra/main/assets/portfolio.svg" alt="Portfolio" height="24"></a>
   &nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/naveen-babu-699215224/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/naveen-astra/naveen-astra/main/assets/linkedin.svg" alt="LinkedIn" height="24"></a>
   &nbsp;&nbsp;
   <a href="https://x.com/naveenastra" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/naveen-astra/naveen-astra/main/assets/x.svg" alt="X" height="24"></a>
   &nbsp;&nbsp;
-  <a href="mailto:nbknight23@gmail.com"><img src="https://raw.githubusercontent.com/naveen-astra/naveen-astra/main/assets/gmail.svg" alt="Email" height="24"></a>
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nbknight23@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/naveen-astra/naveen-astra/main/assets/gmail.svg" alt="Email" height="24"></a>
 </p>
 
 </div>
@@ -27,8 +27,15 @@
   <img>, which browsers never treat as interactive) — that's why the real
   links live in the <p> block above instead.
 
-  assets/*.svg are Simple Icons (CC0), recolored and hosted locally instead
-  of a third-party proxy — cdn.simpleicons.org 404s on "linkedin" specifically.
+  assets/*.svg are Simple Icons (CC0) recolored and hosted locally, plus
+  portfolio.svg copied from navn-os-portfolio/app/icon.svg.
+
+  Email points at a Gmail compose URL (not mailto:) so it opens a
+  pre-addressed compose window in the browser instead of handing off to
+  whatever desktop mail client is registered. GitHub's README sanitizer
+  strips target="_blank" from every link on the platform, no exceptions —
+  so despite target being set here, all four links still open in the same
+  tab; there's no markup-only way around that.
 -->
 
 <p align="center"><sub><code>git commit -m "it finally works"</code></sub></p>
