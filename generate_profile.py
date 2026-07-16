@@ -96,8 +96,8 @@ VAL_X = INFO_X + 92
 
 # typewriter-reveal pacing (info panel: chars "typed" one at a time, like a
 # streamed AI response; ascii art: fast overlapping wipe, like it's printing)
-CHAR_DUR, MIN_DUR, MAX_DUR, ROW_GAP = 0.028, 0.12, 0.6, 0.05
-ART_DUR, ART_GAP = 0.14, 0.018
+CHAR_DUR, MIN_DUR, MAX_DUR, ROW_GAP = 0.004, 0.02, 0.09, 0.006
+ART_DUR, ART_GAP = 0.03, 0.003
 
 
 # ----------------------------------------------------------------------------
