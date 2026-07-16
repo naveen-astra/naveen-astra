@@ -1,0 +1,10 @@
+# Source photo — personal, not needed once portrait.txt is generated from it
+avatar2.jpg
+
+# Python
+__pycache__/
+*.pyc
+
+# OS cruft
+.DS_Store
+Thumbs.db
