@@ -27,6 +27,7 @@ INFO = [
     ("__line__",  "currently making tomorrow's bugs.", "muted"),
     ("__line__",  "eventually turning them into features.", "muted"),
     ("__rule__", "", ""),
+    ("__blank__", "", ""),
     ("Role",     "AI & Software Developer", "val"),
     ("Edu",      "B.Tech CSE (AI), Amrita Vishwa Vidyapeetham (2027)", "val"),
     ("Focus",    "├── Multi-Agent AI Systems", "accent"),
