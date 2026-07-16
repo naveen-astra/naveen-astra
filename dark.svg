@@ -7,7 +7,7 @@
     .wrn  { fill:#d29922; font-size:13px; }
     .mut  { fill:#8b949e; font-size:12px; }
     .hdr  { fill:#58a6ff; font-size:15px; font-weight:700; }
-    .sec  { fill:#8b949e; font-size:12px; letter-spacing:1px; }
+    .sec  { fill:#3fb950; font-size:12px; font-weight:700; letter-spacing:1px; }
     .ttl  { fill:#8b949e; font-size:12px; }
     .cool { fill:#58a6ff; font-size:13px; font-style:italic; font-weight:600; }
     .rule { opacity:1; animation: fade .4s ease backwards; }
@@ -100,11 +100,11 @@
 <text x="540" y="223.0" class="acc" clip-path="url(#cp76)" >├── AI-Powered Developer Tools</text>
 <text x="540" y="240.5" class="acc" clip-path="url(#cp77)" >└── Open-Source Projects</text>
 <text x="448" y="268.0"  clip-path="url(#cp78)" ><tspan class="key">$</tspan><tspan class="val" dx="8">make</tspan></text>
-<text x="448" y="285.5" class="key" clip-path="url(#cp79)" >[✓] ideas</text>
-<text x="448" y="303.0" class="key" clip-path="url(#cp80)" >[✓] prototypes</text>
-<text x="448" y="320.5" class="key" clip-path="url(#cp81)" >[✓] bugs</text>
-<text x="448" y="338.0" class="key" clip-path="url(#cp82)" >[✓] late-night commits</text>
-<text x="448" y="355.5" class="mut" clip-path="url(#cp83)" >[ ] documentation</text>
+<text x="448" y="285.5" class="val" clip-path="url(#cp79)" >[✓] ideas</text>
+<text x="448" y="303.0" class="val" clip-path="url(#cp80)" >[✓] prototypes</text>
+<text x="448" y="320.5" class="val" clip-path="url(#cp81)" >[✓] bugs</text>
+<text x="448" y="338.0" class="val" clip-path="url(#cp82)" >[✓] late-night commits</text>
+<text x="448" y="355.5" class="val" clip-path="url(#cp83)" >[ ] documentation</text>
 <text x="448" y="383.0" class="sec" clip-path="url(#cp84)" >~/stack</text>
 <text x="448" y="400.5" class="key" clip-path="url(#cp85)" >Lang</text>
 <text x="540" y="400.5" class="val" clip-path="url(#cp86)" >Python · JavaScript · TypeScript · Java · C++</text>
@@ -122,10 +122,10 @@
 <text x="448" y="558.0" class="key" clip-path="url(#cp98)" >Tools</text>
 <text x="540" y="558.0" class="val" clip-path="url(#cp99)" >Git · GitHub · VS Code · Docker · Arduino</text>
 <text x="448" y="585.5"  clip-path="url(#cp100)" ><tspan class="key">$</tspan><tspan class="val" dx="8">cat roadmap.md</tspan></text>
-<text x="448" y="603.0" class="mut" clip-path="url(#cp101)" >[ ] make something cool</text>
-<text x="448" y="620.5" class="mut" clip-path="url(#cp102)" >[ ] make it useful</text>
-<text x="448" y="638.0" class="mut" clip-path="url(#cp103)" >[ ] make it open source</text>
-<text x="448" y="655.5" class="key" clip-path="url(#cp104)" >[x] have fun doing it</text>
+<text x="448" y="603.0" class="val" clip-path="url(#cp101)" >[ ] make something cool</text>
+<text x="448" y="620.5" class="val" clip-path="url(#cp102)" >[ ] make it useful</text>
+<text x="448" y="638.0" class="val" clip-path="url(#cp103)" >[ ] make it open source</text>
+<text x="448" y="655.5" class="val" clip-path="url(#cp104)" >[x] have fun doing it</text>
 <text x="448" y="683.0" class="sec" clip-path="url(#cp105)" >~/reach</text>
 <text x="448" y="700.5" class="key" clip-path="url(#cp106)" >Web</text>
 <text x="540" y="700.5" class="acc" clip-path="url(#cp107)" >naveenbabu.pages.dev</text>

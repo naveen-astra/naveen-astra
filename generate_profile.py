@@ -35,11 +35,11 @@ INFO = [
     ("",         "└── Open-Source Projects", "accent"),
     ("__blank__", "", ""),
     ("__cmd__",  "make", ""),
-    ("__line__", "[✓] ideas", "key"),
-    ("__line__", "[✓] prototypes", "key"),
-    ("__line__", "[✓] bugs", "key"),
-    ("__line__", "[✓] late-night commits", "key"),
-    ("__line__", "[ ] documentation", "muted"),
+    ("__line__", "[✓] ideas", "val"),
+    ("__line__", "[✓] prototypes", "val"),
+    ("__line__", "[✓] bugs", "val"),
+    ("__line__", "[✓] late-night commits", "val"),
+    ("__line__", "[ ] documentation", "val"),
     ("__blank__", "", ""),
     ("__section__", "~/stack", ""),
     ("Lang",     "Python · JavaScript · TypeScript · Java · C++", "val"),
@@ -54,10 +54,10 @@ INFO = [
     ("Tools",    "Git · GitHub · VS Code · Docker · Arduino", "val"),
     ("__blank__", "", ""),
     ("__cmd__",  "cat roadmap.md", ""),
-    ("__line__", "[ ] make something cool", "muted"),
-    ("__line__", "[ ] make it useful", "muted"),
-    ("__line__", "[ ] make it open source", "muted"),
-    ("__line__", "[x] have fun doing it", "key"),
+    ("__line__", "[ ] make something cool", "val"),
+    ("__line__", "[ ] make it useful", "val"),
+    ("__line__", "[ ] make it open source", "val"),
+    ("__line__", "[x] have fun doing it", "val"),
     ("__blank__", "", ""),
     ("__section__", "~/reach", ""),
     ("Web",      "naveenbabu.pages.dev", "accent"),
@@ -146,7 +146,7 @@ def render(theme_name, colors):
     .wrn  {{ fill:{colors['warn']}; font-size:13px; }}
     .mut  {{ fill:{colors['muted']}; font-size:12px; }}
     .hdr  {{ fill:{colors['accent']}; font-size:15px; font-weight:700; }}
-    .sec  {{ fill:{colors['muted']}; font-size:12px; letter-spacing:1px; }}
+    .sec  {{ fill:{colors['key']}; font-size:12px; font-weight:700; letter-spacing:1px; }}
     .ttl  {{ fill:{colors['muted']}; font-size:12px; }}
     .cool {{ fill:{colors['accent']}; font-size:13px; font-style:italic; font-weight:600; }}
     .rule {{ opacity:1; animation: fade .4s ease backwards; }}
