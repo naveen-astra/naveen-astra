@@ -1,6 +1,10 @@
 # Source photo — personal, not needed once portrait.txt is generated from it
 avatar2.jpg
 
+# Dev-only tool: run manually to regenerate portrait.txt from a new photo.
+# generate_profile.py stays tracked — the Actions workflow depends on it.
+photo_to_ascii.py
+
 # Python
 __pycache__/
 *.pyc
