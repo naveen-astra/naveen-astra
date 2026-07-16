@@ -94,50 +94,51 @@
 <line x1="448" y1="101.5" x2="940" y2="101.5" stroke="#d0d7de" class="row" style="animation-delay:0.42s"/>
 <text x="448" y="117.5" class="mut row" style="animation-delay:0.49s">currently making tomorrow&#x27;s bugs.</text>
 <text x="448" y="135.0" class="mut row" style="animation-delay:0.56s">eventually turning them into features.</text>
-<text x="448" y="162.5" class="key row" style="animation-delay:0.63s">Role</text>
-<text x="540" y="162.5" class="val row" style="animation-delay:0.63s">AI &amp; Software Developer</text>
-<text x="448" y="180.0" class="key row" style="animation-delay:0.70s">Edu</text>
-<text x="540" y="180.0" class="val row" style="animation-delay:0.70s">B.Tech CSE (AI), Amrita Vishwa Vidyapeetham (2027)</text>
-<text x="448" y="197.5" class="key row" style="animation-delay:0.77s">Focus</text>
-<text x="540" y="197.5" class="acc row" style="animation-delay:0.77s">├── Multi-Agent AI Systems</text>
-<text x="540" y="215.0" class="acc row" style="animation-delay:0.84s">├── AI-Powered Developer Tools</text>
-<text x="540" y="232.5" class="acc row" style="animation-delay:0.91s">└── Open-Source Projects</text>
-<text x="448" y="260.0" class="row" style="animation-delay:0.98s"><tspan class="key">$</tspan><tspan class="val" dx="8">make</tspan></text>
-<text x="448" y="277.5" class="key row" style="animation-delay:1.05s">[✓] ideas</text>
-<text x="448" y="295.0" class="key row" style="animation-delay:1.12s">[✓] prototypes</text>
-<text x="448" y="312.5" class="key row" style="animation-delay:1.19s">[✓] bugs</text>
-<text x="448" y="330.0" class="key row" style="animation-delay:1.26s">[✓] late-night commits</text>
-<text x="448" y="347.5" class="mut row" style="animation-delay:1.33s">[ ] documentation</text>
-<text x="448" y="375.0" class="sec row" style="animation-delay:1.40s">~/stack</text>
-<text x="448" y="392.5" class="key row" style="animation-delay:1.47s">Lang</text>
-<text x="540" y="392.5" class="val row" style="animation-delay:1.47s">Python · JavaScript · TypeScript · Java · C++</text>
-<text x="540" y="410.0" class="val row" style="animation-delay:1.54s">SQL · MATLAB · C · Rust · Dart · Kotlin</text>
-<text x="540" y="427.5" class="val row" style="animation-delay:1.61s">Flutter</text>
-<text x="448" y="445.0" class="key row" style="animation-delay:1.68s">Frontend</text>
-<text x="540" y="445.0" class="val row" style="animation-delay:1.68s">HTML5 · CSS3 · React · Next.js · Tailwind CSS</text>
-<text x="540" y="462.5" class="val row" style="animation-delay:1.75s">Bootstrap · Flutter · Figma</text>
-<text x="448" y="480.0" class="key row" style="animation-delay:1.82s">Data</text>
-<text x="540" y="480.0" class="val row" style="animation-delay:1.82s">PostgreSQL · MongoDB · Firebase · Supabase</text>
-<text x="540" y="497.5" class="val row" style="animation-delay:1.89s">Neon</text>
-<text x="448" y="515.0" class="key row" style="animation-delay:1.96s">AI/ML</text>
-<text x="540" y="515.0" class="val row" style="animation-delay:1.96s">TensorFlow · PyTorch · Scikit-learn · Pandas</text>
-<text x="540" y="532.5" class="val row" style="animation-delay:2.03s">NumPy · OpenCV</text>
-<text x="448" y="550.0" class="key row" style="animation-delay:2.10s">Tools</text>
-<text x="540" y="550.0" class="val row" style="animation-delay:2.10s">Git · GitHub · VS Code · Docker · Arduino</text>
-<text x="448" y="577.5" class="row" style="animation-delay:2.17s"><tspan class="key">$</tspan><tspan class="val" dx="8">cat roadmap.md</tspan></text>
-<text x="448" y="595.0" class="mut row" style="animation-delay:2.24s">[ ] make something cool</text>
-<text x="448" y="612.5" class="mut row" style="animation-delay:2.31s">[ ] make it useful</text>
-<text x="448" y="630.0" class="mut row" style="animation-delay:2.38s">[ ] make it open source</text>
-<text x="448" y="647.5" class="key row" style="animation-delay:2.45s">[x] have fun doing it</text>
-<text x="448" y="675.0" class="sec row" style="animation-delay:2.52s">~/reach</text>
-<text x="448" y="692.5" class="key row" style="animation-delay:2.59s">Web</text>
-<text x="540" y="692.5" class="acc row" style="animation-delay:2.59s">naveenbabu.pages.dev</text>
-<text x="448" y="710.0" class="key row" style="animation-delay:2.66s">In</text>
-<text x="540" y="710.0" class="acc row" style="animation-delay:2.66s">linkedin.com/in/naveen-babu-699215224</text>
-<text x="448" y="727.5" class="key row" style="animation-delay:2.73s">X</text>
-<text x="540" y="727.5" class="acc row" style="animation-delay:2.73s">x.com/naveenastra</text>
-<text x="448" y="745.0" class="key row" style="animation-delay:2.80s">Mail</text>
-<text x="540" y="745.0" class="acc row" style="animation-delay:2.80s">nbknight23@gmail.com</text>
-<text x="448" y="772.5" class="cool row" style="animation-delay:2.87s">sleep is optional.</text>
-<text x="448" y="790.0" class="cool row" style="animation-delay:2.94s">git push isn&#x27;t.</text>
+<line x1="448" y1="144.5" x2="940" y2="144.5" stroke="#d0d7de" class="row" style="animation-delay:0.63s"/>
+<text x="448" y="160.5" class="key row" style="animation-delay:0.70s">Role</text>
+<text x="540" y="160.5" class="val row" style="animation-delay:0.70s">AI &amp; Software Developer</text>
+<text x="448" y="178.0" class="key row" style="animation-delay:0.77s">Edu</text>
+<text x="540" y="178.0" class="val row" style="animation-delay:0.77s">B.Tech CSE (AI), Amrita Vishwa Vidyapeetham (2027)</text>
+<text x="448" y="195.5" class="key row" style="animation-delay:0.84s">Focus</text>
+<text x="540" y="195.5" class="acc row" style="animation-delay:0.84s">├── Multi-Agent AI Systems</text>
+<text x="540" y="213.0" class="acc row" style="animation-delay:0.91s">├── AI-Powered Developer Tools</text>
+<text x="540" y="230.5" class="acc row" style="animation-delay:0.98s">└── Open-Source Projects</text>
+<text x="448" y="258.0" class="row" style="animation-delay:1.05s"><tspan class="key">$</tspan><tspan class="val" dx="8">make</tspan></text>
+<text x="448" y="275.5" class="key row" style="animation-delay:1.12s">[✓] ideas</text>
+<text x="448" y="293.0" class="key row" style="animation-delay:1.19s">[✓] prototypes</text>
+<text x="448" y="310.5" class="key row" style="animation-delay:1.26s">[✓] bugs</text>
+<text x="448" y="328.0" class="key row" style="animation-delay:1.33s">[✓] late-night commits</text>
+<text x="448" y="345.5" class="mut row" style="animation-delay:1.40s">[ ] documentation</text>
+<text x="448" y="373.0" class="sec row" style="animation-delay:1.47s">~/stack</text>
+<text x="448" y="390.5" class="key row" style="animation-delay:1.54s">Lang</text>
+<text x="540" y="390.5" class="val row" style="animation-delay:1.54s">Python · JavaScript · TypeScript · Java · C++</text>
+<text x="540" y="408.0" class="val row" style="animation-delay:1.61s">SQL · MATLAB · C · Rust · Dart · Kotlin</text>
+<text x="540" y="425.5" class="val row" style="animation-delay:1.68s">Flutter</text>
+<text x="448" y="443.0" class="key row" style="animation-delay:1.75s">Frontend</text>
+<text x="540" y="443.0" class="val row" style="animation-delay:1.75s">HTML5 · CSS3 · React · Next.js · Tailwind CSS</text>
+<text x="540" y="460.5" class="val row" style="animation-delay:1.82s">Bootstrap · Flutter · Figma</text>
+<text x="448" y="478.0" class="key row" style="animation-delay:1.89s">Data</text>
+<text x="540" y="478.0" class="val row" style="animation-delay:1.89s">PostgreSQL · MongoDB · Firebase · Supabase</text>
+<text x="540" y="495.5" class="val row" style="animation-delay:1.96s">Neon</text>
+<text x="448" y="513.0" class="key row" style="animation-delay:2.03s">AI/ML</text>
+<text x="540" y="513.0" class="val row" style="animation-delay:2.03s">TensorFlow · PyTorch · Scikit-learn · Pandas</text>
+<text x="540" y="530.5" class="val row" style="animation-delay:2.10s">NumPy · OpenCV</text>
+<text x="448" y="548.0" class="key row" style="animation-delay:2.17s">Tools</text>
+<text x="540" y="548.0" class="val row" style="animation-delay:2.17s">Git · GitHub · VS Code · Docker · Arduino</text>
+<text x="448" y="575.5" class="row" style="animation-delay:2.24s"><tspan class="key">$</tspan><tspan class="val" dx="8">cat roadmap.md</tspan></text>
+<text x="448" y="593.0" class="mut row" style="animation-delay:2.31s">[ ] make something cool</text>
+<text x="448" y="610.5" class="mut row" style="animation-delay:2.38s">[ ] make it useful</text>
+<text x="448" y="628.0" class="mut row" style="animation-delay:2.45s">[ ] make it open source</text>
+<text x="448" y="645.5" class="key row" style="animation-delay:2.52s">[x] have fun doing it</text>
+<text x="448" y="673.0" class="sec row" style="animation-delay:2.59s">~/reach</text>
+<text x="448" y="690.5" class="key row" style="animation-delay:2.66s">Web</text>
+<text x="540" y="690.5" class="acc row" style="animation-delay:2.66s">naveenbabu.pages.dev</text>
+<text x="448" y="708.0" class="key row" style="animation-delay:2.73s">In</text>
+<text x="540" y="708.0" class="acc row" style="animation-delay:2.73s">linkedin.com/in/naveen-babu-699215224</text>
+<text x="448" y="725.5" class="key row" style="animation-delay:2.80s">X</text>
+<text x="540" y="725.5" class="acc row" style="animation-delay:2.80s">x.com/naveenastra</text>
+<text x="448" y="743.0" class="key row" style="animation-delay:2.87s">Mail</text>
+<text x="540" y="743.0" class="acc row" style="animation-delay:2.87s">nbknight23@gmail.com</text>
+<text x="448" y="780.5" class="cool row" style="animation-delay:2.94s">sleep is optional.</text>
+<text x="448" y="798.0" class="cool row" style="animation-delay:3.01s">git push isn&#x27;t.</text>
 </svg>
