@@ -65,6 +65,9 @@ INFO = [
     ("Mail",     "nbknight23@gmail.com", "accent"),
     ("__blank__", "", ""),
     ("__blank__", "", ""),
+    ("__blank__", "", ""),
+    ("__blank__", "", ""),
+    ("__blank__", "", ""),
     ("__line__", "sleep is optional.", "cool"),
     ("__line__", "git push isn't.", "cool"),
 ]
@@ -84,7 +87,7 @@ THEMES = {
     },
 }
 
-W, H = 980, 825
+W, H = 980, 860
 ART_X, ART_Y = 30, 86
 ART_CW = 3.9          # forced char width (textLength keeps this exact in any font)
 ART_LH = ART_CW * 1.72
