@@ -39,5 +39,3 @@
 -->
 
 <p align="center"><sub><code>git commit -m "it finally works"</code></sub></p>
-
-<p align="center"><sub>&copy; 2026 Naveen Babu — all rights reserved. See <a href="LICENSE">LICENSE</a>.</sub></p>
