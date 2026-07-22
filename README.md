@@ -6,7 +6,10 @@
   <img alt="Naveen Babu — AI & Software Developer" src="https://raw.githubusercontent.com/naveen-astra/naveen-astra/main/dark.svg">
 </picture>
 
+
+
 <p>
+  
   <a href="https://naveenbabu.pages.dev" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/naveen-astra/naveen-astra/main/assets/portfolio.svg" alt="Portfolio" height="24"></a>
   &nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/naveen-babu-699215224/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/naveen-astra/naveen-astra/main/assets/linkedin.svg" alt="LinkedIn" height="24"></a>
